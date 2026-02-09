@@ -15,7 +15,7 @@ def medalsByPopAndGDP(dfWins: pl.DataFrame, dfCountries: pl.DataFrame):
     # plot
     fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
 
-    ax.scatter(wins, ys, zs)
+    # ax.scatter(wins, ys, zs)
 
     ax.set(xticklabels=[],
         yticklabels=[],
