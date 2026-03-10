@@ -50,7 +50,7 @@ def getAvgModifiers(df: pd.DataFrame):
 
     print(f"the average discount is £{avg_discount} and the avg rating is {avg_rating} stars comapred to {avg_reviews} reviews.")
 
-    plt.pie(avg_payment, labels=avg_payment.index)
-    plt.show()
+    # plt.pie(avg_payment, labels=avg_payment.index)
+    # plt.show()
 
 # getAvgModifiers(df)
